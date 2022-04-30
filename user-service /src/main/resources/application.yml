@@ -1,0 +1,11 @@
+#configuration userservice
+server:
+    port: 8092
+spring:
+    r2dbc:
+        url: r2dbc:h2:mem:///dbuser
+        username: root
+        password: root
+#        url: postgresql://localhost:5432/dbmonolith
+#        username: postgres
+#        password: root
